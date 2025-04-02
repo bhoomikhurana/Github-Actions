@@ -16,6 +16,9 @@ on:
         options: 
           - male
           - female
+      married:
+        description: 'is married?'
+        type: boolean
 
 jobs: 
   manual:
