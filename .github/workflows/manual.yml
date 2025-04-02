@@ -32,4 +32,7 @@ jobs:
         run: echo ${{ inputs.age }}
 
       - name: Gender
-        run: echo ${{inputs.gender}}
+        run: echo ${{ inputs.gender }}
+
+      - name: Is married
+        run: echo ${{ inputs.married }}
